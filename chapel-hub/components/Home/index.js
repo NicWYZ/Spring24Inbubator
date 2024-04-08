@@ -2,15 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 
-// Sidebar component
-const Sidebar = () => {
+// Home component
+const Home = () => {
   return (
-    <div className="sidebar">
+    <div className="home">
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Contact</li>
+        <li>Chapel Hub</li>
+        <li>Welcome to Chapel Hub!</li>
       </ul>
     </div>
   );
@@ -18,4 +16,4 @@ const Sidebar = () => {
 
 // Render the sidebar component
 //ReactDOM.render(<Sidebar />, document.getElementById('root'));
-export default Sidebar;
+export default Home;
