@@ -1,5 +1,5 @@
 .sidebar {
-    width: 90px;
+    width:  100px;
     height: 100%;
     background-color: #53b6ef;
     color: #fff;
@@ -7,6 +7,28 @@
   }
   
   // Style list items
+
+  .circle {
+    display: inline-block;
+    border-radius: 300%;
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    // line-height: 50px; /* Vertically center content */
+    margin-right: 8px; /* Add spacing between circles */
+  }
+
+  .center {
+   align-items: center;
+   flex: content;
+  }
+  
+  .circle .emoji {
+    font-size: 55px; /* Adjust size as needed */
+  }
+
   .sidebar ul {
     list-style-type: none;
     padding: 0;
@@ -25,3 +47,11 @@
     cursor: pointer;
     background-color: #1b0065;
   }
+
+  svg {
+    margin-right: 10px;
+  }
+  .sidebar-link .emoji {
+    font-size: 50px; // Adjust the font size as needed
+  }
+

@@ -1,0 +1,26 @@
+// components/Stores/index.scss
+
+.stores-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .store {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .store-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .store-location {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .store-description {
+    margin-top: 10px;
+  }
