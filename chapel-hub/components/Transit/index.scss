@@ -1,0 +1,18 @@
+/* components/TransitInfo/index.scss */
+
+.transit-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  }
+  
+  .transit-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .transit-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
