@@ -1,9 +1,12 @@
 .sidebar {
+    position: fixed;
     width:  100px;
     height: 100%;
+    padding-top: 3%;
+    padding-left: 6px;
     background-color: #53b6ef;
     color: #fff;
-    padding: 8px;
+    // padding: 8px;
   }
   
   // Style list items
@@ -45,7 +48,7 @@
 
   .sidebar li:hover {
     cursor: pointer;
-    background-color: #1b0065;
+    //background-color: #1b0065;
   }
 
   svg {

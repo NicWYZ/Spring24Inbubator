@@ -7,18 +7,19 @@ export async function POST( ){
         headers:{
             'Content-Type': 'application/json',
             'X-Goog-Api-Key': process.env.GOOGLE_API_KEY,
-            'X-Goog-FieldMask': 'places.displayName',
+            'X-Goog-FieldMask': 'places.displayName,places.googleMapsUri',
         },
         body: JSON.stringify({
             "includedTypes": ["bus_stop"],
-            "maxResultCount": 10,
+            "rankPreference": "DISTANCE",
+            "maxResultCount": 20,
             "languageCode": "en",
             "locationRestriction": {
                 "circle": {
                     "center": {
-                        "latitude": 35.9049,
-                        "longitude": -79.0469},
-                    "radius": 500.0
+                        "latitude": 35.9121,
+                        "longitude":  -79.0512},
+                    "radius": 2000.0
                 }
             }
         })

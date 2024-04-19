@@ -1,7 +1,7 @@
 // pages/stores.js
 
 import React from 'react';
-import Dining from '../components/Dining';
+import Dining from '../app/restaurants';
 
 const DiningPage = () => {
   return <Dining />;

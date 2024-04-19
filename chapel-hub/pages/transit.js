@@ -1,7 +1,7 @@
 // pages/transit.js
 
 import React from 'react';
-import Transit from '../components/Transit';
+import Transit from '../app/transportation';
 
 const TransitPage = () => {
   return <Transit />;

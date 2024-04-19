@@ -10,9 +10,9 @@ import Link from 'next/link';
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <ul className='center'>
+      <ul className='items-center'>
         {/* Use Link component for Next.js routing */}
-        <li>
+        <li className='items-center'>
           <Link href="/" className="sidebar-link circle"><span className="emoji">&#127968;</span></Link>
         </li>
         <li>

@@ -1,9 +1,10 @@
 // pages/stores.js
 
 import React from 'react';
-import About from '../components/About';
+import About from '@/app/About';
 
 const AboutPage = () => {
+
   return <About />;
 };
 
