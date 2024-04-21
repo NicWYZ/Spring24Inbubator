@@ -38,6 +38,8 @@ export default function Shops() {
       <div className="flex flex-col items-center justify-center w-full bg-gray-100">
         {/* Adjust the Tailwind classes as needed */}
         <h1 className="text-3xl font-bold mb-4">Stores</h1>
+        <p>Expore stores near you</p>
+        <p>ranked by distance</p>
         <div>
           {data && data.places.map((place) => (
             <Results place={place} />

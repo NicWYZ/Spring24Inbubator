@@ -38,6 +38,7 @@ export default function Transportation(){
         {/* Adjust the Tailwind classes as needed */}
         <h1 className="text-3xl font-bold mb-4">Transit Information</h1>
         <p>Bus Stops near you</p>
+        <p>ranked by distance</p>
         <div>
           {data && data.places.map((place) => (
           <Results place={place} />
