@@ -11,14 +11,14 @@ export async function POST(){
         },
         body: JSON.stringify({
             "includedTypes": ["restaurant"],
-            "maxResultCount": 10,
+            "maxResultCount": 20,
             "languageCode": "en",
             "locationRestriction": {
                 "circle": {
                     "center": {
                         "latitude": 35.9121,
                         "longitude":  -79.0512},
-                    "radius": 1500.0
+                    "radius": 3000.0
                 }
             }
         })

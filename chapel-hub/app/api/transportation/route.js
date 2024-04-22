@@ -19,7 +19,7 @@ export async function POST( ){
                     "center": {
                         "latitude": 35.9121,
                         "longitude":  -79.0512},
-                    "radius": 2000.0
+                    "radius": 3000.0
                 }
             }
         })

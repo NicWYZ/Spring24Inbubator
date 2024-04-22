@@ -11,7 +11,7 @@ export async function POST( ){
         },
         body: JSON.stringify({
             "includedTypes": ["clothing_store","convenience_store","department_store","electronics_store","gift_shop","grocery_store","hardware_store","home_goods_store","shopping_mall","supermarket"],
-            "maxResultCount": 10,
+            "maxResultCount": 20,
             "languageCode": "en",
             "locationRestriction": {
                 "circle": {
